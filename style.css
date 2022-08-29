@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 80vw;
+    min-width: 500px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+/* --------------------ШАПКАААА----------------------------------------------------------- */
+
+.content {
+
+min-height: 100%;
+overflow: hidden;
+display: grid;
+gap: 20px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: (4, 1fr);
+grid-template-areas: 
+"header header header"
+"categories categories categories"
+"description description documents"
+"filials filials documents"
+"filials filials documents"
+;
+}
+.header {
+    grid-area: header;
+}
+.categories {
+    grid-area: categories;
+}
+.description {
+    grid-area: description;
+}
+.filials {
+    grid-area: filials;
+}
+.documents {
+    grid-area: documents;
+}
+
+
+.header {
+    background-image: url(img/img2.png) ;
+    
+    border-radius: 16px;
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    min-height: 250px;
+
+    margin: 20px 0 20px 0;
+
+    display: grid;
+    justify-content: end;
+    align-items: end;
+}
+
+
+.title {
+    text-shadow: 2px 2px 4px black;
+    color: white;
+    font-size: 60px;
+    font-family: "Montserrat",sans-serif;
+    line-height: 1.2em;
+    font-weight: 700;
+
+    padding: 25px;
+    
+}
+
+
+
+/*-----------------КАТЕГОРИИИ--------------------------------------------------------- */
+
+
+.categories {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+
+.categories-title {
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
+    /* line-height: 1.2em; */
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    background-color: rgb(243, 243, 243);
+
+} 
+
+.categories-flex {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    
+    padding-bottom: 30px;
+    /* border-bottom: 3px solid rgba(0, 0, 0, 0.603); */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.151);
+}
+
+.ct {
+    background-color: rgba(0, 0, 0, 0.747);
+    
+    min-width: 12%;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.459);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.151);
+    
+}
+.ct-num {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    /* text-shadow: 3px 3px 10px black; */
+    padding: 20px 20px;
+    font-family: "Montserrat",sans-serif;
+}
+
+
+/* -------ИНФА О ШКОЛЕ------------------------------------------------------------------------------- */
+
+.description {
+    margin-top: 70px;
+}
+
+.description-title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+    padding-bottom: 20px;
+}
+
+.description-text {
+    font-size: 20px;
+}
+
+/* _-------------ФИЛИАЛЫ---------------------------------------------------------------------------------- */
+
+.filials-title {
+    font-size: 30px;
+    padding: 20px 0;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+}
+
+.filial {
+
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.f-text-1 {
+    font-size: 17px;
+    padding: 10px;
+}
+.f-text-2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    font-family: "Montserrat",sans-serif;
+}
+.f-text-3 {
+    font-size: 14px;
+    padding: 10px;
+}
+.filials-map {
+    margin: 50px 0;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+/* --------------------------ДОКУМЕНТЫ------------------------------------------------ */
+.document-title {
+    margin-bottom: 20%;
+    padding-top: 20%;
+    font-size: 20px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+.documents {
+    margin-left: 20%;
+    box-shadow: -5px 15px 10px rgba(0, 0, 0, 0.103);
+    border-radius: 50px;
+    max-height: 40%;
+}
+.document {
+    
+    background-color: black;
+    padding: 20px 0;
+    margin: 40px auto;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 70%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
