@@ -70,7 +70,8 @@ grid-template-areas:
     text-shadow: 2px 2px 4px black;
     color: white;
     font-size: 60px;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
     line-height: 1.2em;
     font-weight: 700;
 
@@ -92,7 +93,8 @@ height: 100%;
 .categories-title {
     color: rgba(0, 0, 0, 0.774);
     font-size: 30px;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
     /* line-height: 1.2em; */
     font-weight: 700;
     text-align: center;
@@ -142,7 +144,8 @@ height: 100%;
 .description-title {
     font-size: 40px;
     font-weight: 700;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
     padding-bottom: 20px;
 }
 
@@ -156,7 +159,8 @@ height: 100%;
     font-size: 30px;
     padding: 20px 0;
     font-weight: 700;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
 }
 
 .filial {
@@ -174,7 +178,8 @@ height: 100%;
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
 }
 .f-text-3 {
     font-size: 14px;
@@ -191,7 +196,8 @@ height: 100%;
     margin-bottom: 20%;
     padding-top: 20%;
     font-size: 20px;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
     font-weight: 600;
     text-align: center;
 
