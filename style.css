@@ -70,8 +70,8 @@ grid-template-areas:
     text-shadow: 2px 2px 4px black;
     color: white;
     font-size: 60px;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 4px;
+    font-family: "Montserrat",sans-serif;
+    
     line-height: 1.2em;
     font-weight: 700;
 
@@ -93,8 +93,8 @@ height: 100%;
 .categories-title {
     color: rgba(0, 0, 0, 0.774);
     font-size: 30px;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
+    font-family: "Montserrat",sans-serif;
+    
     /* line-height: 1.2em; */
     font-weight: 700;
     text-align: center;
@@ -116,7 +116,7 @@ height: 100%;
 }
 
 .ct {
-    background-color: rgba(0, 0, 0, 0.747);
+    /* background-color: rgba(0, 0, 0, 0.747); */
     
     min-width: 10%;
     border-radius: 8px;
@@ -125,7 +125,7 @@ height: 100%;
     
 }
 .ct-num {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 50px;
     text-align: center;
     font-weight: 700;
@@ -217,7 +217,54 @@ height: 100%;
     text-align: center;
     max-width: 70%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+
+    vertical-align: middle;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+
+
+.document:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform, opacity;
+    transition-property: transform, opacity;
+  }
+  
+  .document:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  .document:hover:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+
+
+
+
 
 a {
     color: white;
