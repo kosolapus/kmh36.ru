@@ -70,7 +70,7 @@ grid-template-areas:
     text-shadow: 2px 2px 4px black;
     color: white;
     font-size: 60px;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Rubik', sans-serif;
     
     line-height: 1.2em;
     font-weight: 700;
@@ -93,7 +93,7 @@ height: 100%;
 .categories-title {
     color: rgba(0, 0, 0, 0.774);
     font-size: 30px;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Rubik', sans-serif;
     
     /* line-height: 1.2em; */
     font-weight: 700;
@@ -134,7 +134,7 @@ height: 100%;
     font-weight: 700;
     /* text-shadow: 3px 3px 10px black; */
     padding: 10px 10px;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -147,13 +147,14 @@ height: 100%;
 .description-title {
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 3px;
+    font-family: 'Rubik', sans-serif;
+    
     padding-bottom: 20px;
 }
 
 .description-text {
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* _-------------ФИЛИАЛЫ---------------------------------------------------------------------------------- */
@@ -162,8 +163,8 @@ height: 100%;
     font-size: 30px;
     padding: 20px 0;
     font-weight: 700;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 4px;
+    font-family: 'Rubik', sans-serif;
+    
 }
 
 .filial {
@@ -176,17 +177,19 @@ height: 100%;
 .f-text-1 {
     font-size: 17px;
     padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .f-text-2 {
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    
 }
 .f-text-3 {
     font-size: 14px;
     padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .filials-map {
     margin: 50px 0;
@@ -201,7 +204,7 @@ height: 100%;
     padding-left: 20%;
     padding-right: 20%;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
     letter-spacing: 2px;
     font-weight: 600;
     text-align: center;
@@ -215,6 +218,8 @@ height: 100%;
 }
 .document {
     
+    font-size: smaller;
+    font-family: 'Ubuntu', sans-serif;
     background-color: black;
     padding: 20px 10px;
     margin: 40px auto;
