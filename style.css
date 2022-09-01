@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #eaf6ff70;
+}
 
 .container {
     width: 100%;
@@ -91,7 +94,7 @@ height: 100%;
 }
 
 .categories-title {
-    color: rgba(0, 0, 0, 0.774);
+    color: #061826;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
     
@@ -101,7 +104,7 @@ height: 100%;
     padding: 30px 0 30px 0;
     margin-bottom: 30px;
     border-radius: 16px;
-    background-color: rgb(243, 243, 243);
+    background-color: #dbe7f0;
 
 } 
 
@@ -112,7 +115,7 @@ height: 100%;
     flex-wrap: wrap;
     padding-bottom: 30px;
     /* border-bottom: 3px solid rgba(0, 0, 0, 0.603); */
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.082);
 }
 
 .ct {
@@ -122,13 +125,13 @@ height: 100%;
     width: 90px;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.459);
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.151);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.151);
     
     
     
 }
 .ct-num {
-    color: rgb(0, 0, 0);
+    color: #061826;
     font-size: 40px;
     text-align: center;
     font-weight: 700;
@@ -148,6 +151,7 @@ height: 100%;
     font-size: 40px;
     font-weight: 700;
     font-family: 'Rubik', sans-serif;
+    color: #061826;
     
     padding-bottom: 20px;
 }
@@ -160,6 +164,7 @@ height: 100%;
 /* _-------------ФИЛИАЛЫ---------------------------------------------------------------------------------- */
 
 .filials-title {
+    color: #061826;
     font-size: 30px;
     padding: 20px 0;
     font-weight: 700;
@@ -175,11 +180,13 @@ height: 100%;
     border: 1px solid black;
 }
 .f-text-1 {
+    color: #061826;
     font-size: 17px;
     padding: 10px;
     font-family: 'Ubuntu', sans-serif;
 }
 .f-text-2 {
+    color: #061826;
     font-size: 20px;
     font-weight: 600;
     padding: 10px;
@@ -187,6 +194,7 @@ height: 100%;
     
 }
 .f-text-3 {
+    color: #061826;
     font-size: 14px;
     padding: 10px;
     font-family: 'Ubuntu', sans-serif;
@@ -220,9 +228,10 @@ height: 100%;
     
     font-size: smaller;
     font-family: 'Ubuntu', sans-serif;
-    background-color: black;
+    background-color: #2786cf;
     padding: 20px 10px;
     margin: 40px auto;
+    border: 1px solid #061826;;
     border-radius: 8px;
     text-align: center;
     max-width: 70%;
@@ -358,7 +367,7 @@ a {
         padding-top: 35px;
         padding-left: 10%;
         padding-right: 10%;
-        font-size: 12px;
+        font-size: 20px;
         margin: 0 auto;
     }
     .document {
