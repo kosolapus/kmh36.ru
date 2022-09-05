@@ -11,13 +11,13 @@ body {
     background-color:#eaf6ff42 ;
     border: 1px solid rgba(0, 0, 0, 0.11);
     border-radius: 10px;
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.062);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.062);
     width: 100%;
     min-width: 350px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
-    
+
 }
 
 
@@ -31,7 +31,7 @@ display: grid;
 gap: 20px;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: (4, 1fr);
-grid-template-areas: 
+grid-template-areas:
 "header header header"
 "categories categories categories"
 "description description documents"
@@ -57,8 +57,8 @@ grid-template-areas:
 
 
 .header {
-    background-image: url(img/head.jpg) ;
-    
+    background-image: url(public/img/head.jpg) ;
+
     border-radius: 16px;
     background-position: 50%;
     background-size: cover;
@@ -79,12 +79,12 @@ grid-template-areas:
     color: white;
     font-size: 60px;
     font-family: 'Rubik', sans-serif;
-    
+
     line-height: 1.2em;
     font-weight: 700;
 
     padding: 25px;
-    
+
 }
 
 
@@ -102,7 +102,7 @@ height: 100%;
     color: #061826;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
-    
+
     /* line-height: 1.2em; */
     font-weight: 700;
     text-align: center;
@@ -111,11 +111,11 @@ height: 100%;
     border-radius: 16px;
     background-color: #dbe7f0;
 
-} 
+}
 
 .categories-flex {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 30px;
@@ -125,15 +125,15 @@ height: 100%;
 
 .ct {
     /* background-color: rgba(0, 0, 0, 0.747); */
-    
+
     /* min-width: 10%; */
     width: 90px;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.459);
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.151);
-    
-    
-    
+
+
+
 }
 .ct-num {
     color: #061826;
@@ -157,7 +157,7 @@ height: 100%;
     font-weight: 700;
     font-family: 'Rubik', sans-serif;
     color: #061826;
-    
+
     padding-bottom: 20px;
 }
 
@@ -174,7 +174,7 @@ height: 100%;
     padding: 20px 0;
     font-weight: 700;
     font-family: 'Rubik', sans-serif;
-    
+
 }
 
 .filial {
@@ -196,7 +196,7 @@ height: 100%;
     font-weight: 600;
     padding: 10px;
     font-family: 'Ubuntu', sans-serif;
-    
+
 }
 .f-text-3 {
     color: #061826;
@@ -231,7 +231,7 @@ height: 100%;
     height: 100%;
 }
 .document {
-    
+
     font-size: smaller;
     font-family: 'Ubuntu', sans-serif;
     background-color: #2786cf;
@@ -274,7 +274,7 @@ height: 100%;
     -webkit-transition-property: -webkit-transform, opacity;
     transition-property: transform, opacity;
   }
-  
+
   .document:hover {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
@@ -317,7 +317,7 @@ a {
         gap: 20px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: (6, 1fr);
-        grid-template-areas: 
+        grid-template-areas:
         "header header header"
         "categories categories categories"
         "documents documents documents"
@@ -334,12 +334,12 @@ a {
     .documents {
         margin: 0 auto;
         max-height: 100%;
-        
+
     }
     .ct {
         margin: 5px;
         width: 80px;
-        
+
     }
     .ct-num {
         font-size: 20px;
